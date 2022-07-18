@@ -1,0 +1,27 @@
+Watching C:\Users\시연\Desktop\media_summer\my-app and all sub-directories not excluded by your .gitignore. Will not monitor dotfiles.
+Found & ignored ./.svelte-kit ; is listed in .gitignore
+Found & ignored ./build ; is listed in .gitignore
+Found & ignored ./node_modules ; is listed in .gitignore
+Found & ignored ./src ; is listed in .gitignore
+Found & ignored ./static ; is listed in .gitignore
+Found & ignored ./package-lock.json ; is listed in .gitignore
+Found & ignored ./package.json ; is listed in .gitignore
+Found & ignored ./README.md ; is listed in .gitignore
+Found & ignored ./serve ; is listed in .gitignore
+Found & ignored ./svelte.config.js ; is listed in .gitignore
+Found & ignored ./tsconfig.json ; is listed in .gitignore
+Found & ignored ./vite.config.js ; is listed in .gitignore
+
+Starting: dev --opne 5000
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\시연\Desktop\media_summer\my-app\dev'
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
